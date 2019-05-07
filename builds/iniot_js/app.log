@@ -1,0 +1,51 @@
+[4/28/2019, 5:18:03 PM] Listening on port 10666...
+[4/28/2019, 5:18:27 PM] Request payload: {"temperature":12}
+[4/28/2019, 5:18:27 PM] Request headers: {"content-type":"application/json","authorization":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIwZGFhMjU1Ny04NThlLTQ2MWYtYjQwZC1hMDkyM2ExNGFhNTgiLCJpc3MiOiI1YmU0LTlkYTAtY2E3Yy03ZDBmLWQ3ZjAtNTMwZiIsImV4cCI6MTU1NzAwMDE4MX0.fzOpf19-Nnzq7TFdIBgw1TtS4ky0ITQpNJgrbAe_Yzc","user-agent":"PostmanRuntime/7.11.0","accept":"*/*","cache-control":"no-cache","postman-token":"434d9a0f-f513-465e-9c30-5773e46d54a6","host":"localhost:10666","accept-encoding":"gzip, deflate","content-length":"24","connection":"keep-alive"}
+[4/28/2019, 5:20:23 PM] Listening on port 10666...
+[4/28/2019, 5:21:16 PM] Listening on port 10666...
+[4/28/2019, 5:22:40 PM] Listening on port 10666...
+[4/28/2019, 5:22:44 PM] Request payload: {"temperature":12}
+[4/28/2019, 5:22:44 PM] Request headers: {"content-type":"application/json","authorization":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIwZGFhMjU1Ny04NThlLTQ2MWYtYjQwZC1hMDkyM2ExNGFhNTgiLCJpc3MiOiI1YmU0LTlkYTAtY2E3Yy03ZDBmLWQ3ZjAtNTMwZiIsImV4cCI6MTU1NzAwMDE4MX0.fzOpf19-Nnzq7TFdIBgw1TtS4ky0ITQpNJgrbAe_Yzc","user-agent":"PostmanRuntime/7.11.0","accept":"*/*","cache-control":"no-cache","postman-token":"3bb3b2c5-187b-4567-849c-a30945311027","host":"localhost:10666","accept-encoding":"gzip, deflate","content-length":"24","connection":"keep-alive"}
+[4/28/2019, 5:46:13 PM] Listening on port 10666...
+[4/28/2019, 5:46:17 PM] Request payload: {"temperature":12}
+[4/28/2019, 5:46:17 PM] Request headers: {"content-type":"application/json","authorization":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIwZGFhMjU1Ny04NThlLTQ2MWYtYjQwZC1hMDkyM2ExNGFhNTgiLCJpc3MiOiI1YmU0LTlkYTAtY2E3Yy03ZDBmLWQ3ZjAtNTMwZiIsImV4cCI6MTU1NzAwMDE4MX0.fzOpf19-Nnzq7TFdIBgw1TtS4ky0ITQpNJgrbAe_Yzc","user-agent":"PostmanRuntime/7.11.0","accept":"*/*","cache-control":"no-cache","postman-token":"48347bb2-b015-4875-87bc-f179e826aabc","host":"localhost:10666","accept-encoding":"gzip, deflate","content-length":"24","connection":"keep-alive"}
+[4/28/2019, 5:46:17 PM] JWT token: {"sub":"0daa2557-858e-461f-b40d-a0923a14aa58","iss":"5be4-9da0-ca7c-7d0f-d7f0-530f","exp":1557000181}
+[4/28/2019, 5:46:17 PM] User: 0daa2557-858e-461f-b40d-a0923a14aa58
+[4/28/2019, 5:46:17 PM] Application: 5be4-9da0-ca7c-7d0f-d7f0-530f
+[4/28/2019, 5:46:17 PM] Message:
+{"timestamp":"2019-04-28T17:46:17.251Z","user":"0daa2557-858e-461f-b40d-a0923a14aa58","object":{"temperature":12}}
+[4/29/2019, 6:42:06 PM] 
+Listening on port 10666...
+[4/29/2019, 6:42:38 PM] Request payload: {"temperature":12}
+[4/29/2019, 6:42:38 PM] Request headers: {"content-type":"application/json","authorization":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIwZGFhMjU1Ny04NThlLTQ2MWYtYjQwZC1hMDkyM2ExNGFhNTgiLCJpc3MiOiI1YmU0LTlkYTAtY2E3Yy03ZDBmLWQ3ZjAtNTMwZiIsImV4cCI6MTU1NzAwMDE4MX0.fzOpf19-Nnzq7TFdIBgw1TtS4ky0ITQpNJgrbAe_Yzc","user-agent":"PostmanRuntime/7.11.0","accept":"*/*","cache-control":"no-cache","postman-token":"be77de5b-8ef7-4d38-9e10-1d4a3f384497","host":"localhost:10666","accept-encoding":"gzip, deflate","content-length":"24","connection":"keep-alive"}
+[4/29/2019, 6:42:38 PM] JWT token: {"sub":"0daa2557-858e-461f-b40d-a0923a14aa58","iss":"5be4-9da0-ca7c-7d0f-d7f0-530f","exp":1557000181}
+[4/29/2019, 6:42:38 PM] User: 0daa2557-858e-461f-b40d-a0923a14aa58
+[4/29/2019, 6:42:38 PM] Application: 5be4-9da0-ca7c-7d0f-d7f0-530f
+[4/29/2019, 6:42:38 PM] Message:
+{"timestamp":"2019-04-29T18:42:38.035Z","user":"0daa2557-858e-461f-b40d-a0923a14aa58","object":{"temperature":12}}
+[4/29/2019, 6:43:44 PM] Request payload: {"temperature":12,"outro atributo":12}
+[4/29/2019, 6:43:44 PM] Request headers: {"content-type":"application/json","authorization":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIwZGFhMjU1Ny04NThlLTQ2MWYtYjQwZC1hMDkyM2ExNGFhNTgiLCJpc3MiOiI1YmU0LTlkYTAtY2E3Yy03ZDBmLWQ3ZjAtNTMwZiIsImV4cCI6MTU1NzAwMDE4MX0.fzOpf19-Nnzq7TFdIBgw1TtS4ky0ITQpNJgrbAe_Yzc","user-agent":"PostmanRuntime/7.11.0","accept":"*/*","cache-control":"no-cache","postman-token":"dca94750-5a25-4726-b420-7c4ab1b277e3","host":"localhost:10666","accept-encoding":"gzip, deflate","content-length":"50","connection":"keep-alive"}
+[4/29/2019, 6:43:44 PM] JWT token: {"sub":"0daa2557-858e-461f-b40d-a0923a14aa58","iss":"5be4-9da0-ca7c-7d0f-d7f0-530f","exp":1557000181}
+[4/29/2019, 6:43:44 PM] User: 0daa2557-858e-461f-b40d-a0923a14aa58
+[4/29/2019, 6:43:44 PM] Application: 5be4-9da0-ca7c-7d0f-d7f0-530f
+[4/29/2019, 6:43:44 PM] Message:
+{"timestamp":"2019-04-29T18:43:44.692Z","user":"0daa2557-858e-461f-b40d-a0923a14aa58","object":{"temperature":12,"outro atributo":12}}
+[4/29/2019, 6:56:33 PM] 
+Listening on port 10666...
+[4/29/2019, 6:56:49 PM] 
+Listening on port 10666...
+[4/29/2019, 6:57:18 PM] 
+Listening on port 10666...
+[5/4/2019, 1:49:15 PM] 
+Listening on port 10666...
+[5/7/2019, 6:57:58 PM] 
+Listening on port 10666...
+[5/7/2019, 6:59:13 PM] 
+Listening on port 10666...
+[5/7/2019, 6:59:24 PM] Request payload: {"temperature":17,"pressure":10}
+[5/7/2019, 6:59:24 PM] Request headers: {"content-type":"application/json","authorization":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIwZGFhMjU1Ny04NThlLTQ2MWYtYjQwZC1hMDkyM2ExNGFhNTgiLCJpc3MiOiI1YmU0LTlkYTAtY2E3Yy03ZDBmLWQ3ZjAtNTMwZiIsImV4cCI6MTU1NzAwMDE4MX0.fzOpf19-Nnzq7TFdIBgw1TtS4ky0ITQpNJgrbAe_Yzc","user-agent":"PostmanRuntime/7.11.0","accept":"*/*","cache-control":"no-cache","postman-token":"8c2a6b06-d45d-4c49-b242-914ec8fb5650","host":"localhost:10666","accept-encoding":"gzip, deflate","content-length":"45","connection":"keep-alive"}
+[5/7/2019, 6:59:24 PM] JWT token: {"sub":"0daa2557-858e-461f-b40d-a0923a14aa58","iss":"5be4-9da0-ca7c-7d0f-d7f0-530f","exp":1557000181}
+[5/7/2019, 6:59:24 PM] User: 0daa2557-858e-461f-b40d-a0923a14aa58
+[5/7/2019, 6:59:24 PM] Application: 5be4-9da0-ca7c-7d0f-d7f0-530f
+[5/7/2019, 6:59:24 PM] Message:
+{"timestamp":"2019-05-07T18:59:24.858Z","user":"0daa2557-858e-461f-b40d-a0923a14aa58","object":{"temperature":17,"pressure":10}}

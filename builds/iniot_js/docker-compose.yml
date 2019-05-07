@@ -1,0 +1,11 @@
+version: "3.1"
+
+services:
+  iniotjs:
+    image: iniotjs
+    volumes:
+      - ../volumes/iniot_js/data:/data
+      - .:/home/iniot_js
+    # network_mode: "host"
+    ports: 
+      - 10666:10666
