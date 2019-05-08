@@ -1,6 +1,7 @@
 .DS_Store
 builds/volumes/*/data/db
 info.md
+.vscode/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

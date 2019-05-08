@@ -2,8 +2,12 @@ const express = require('express');
 const app = express(); 
 const bodyParser = require('body-parser');
 var jwt = require('jsonwebtoken');
+var mongojs = require('mongojs')
 
 const PORT = 10666;
+
+var db = mongojs('iot', ['devices'])
+
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}))
@@ -11,7 +15,13 @@ app.use(bodyParser.urlencoded({extended: false}))
 const log = message => console.log(`[${(new Date()).toLocaleString()}] ${message}`);
 
 app.get('/', (req, res) => {
-    res.send('Welcome to InIot.js');
+    db.devices.find({}, (err, result) => {
+        if (err) {
+            res.send(`error while counting: ${err}`);
+        } else {
+            res.json({result});
+        }
+    });
 });
 
 app.post('/device-api/api/v1/message', (req, res) => {
@@ -28,8 +38,6 @@ app.post('/device-api/api/v1/message', (req, res) => {
         object: payload
     }
 
-    // inserir message no mongo
-
     // // For Debugging:
     // log(`Request payload: ${JSON.stringify(payload)}`);
     // log(`Request headers: ${JSON.stringify(headers)}`);
@@ -37,8 +45,19 @@ app.post('/device-api/api/v1/message', (req, res) => {
     // log(`User: ${user}`);
     // log(`Application: ${application}`);
     // log(`Message:\n${JSON.stringify(message)}`);
+    //
+    // res.send();
 
-    res.send();
+    // inserir message no mongo
+    db.devices.save(message, (err, result) => {
+        if (err) {
+            const err_message = `Error inserting message: ${err}`;
+            log(err_message);
+            res.send(err_message);
+        } else {
+            res.send();
+        }
+    });
 });
 
 app.listen(PORT, function () {

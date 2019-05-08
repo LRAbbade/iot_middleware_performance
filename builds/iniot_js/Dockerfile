@@ -1,5 +1,7 @@
 FROM ubuntu:16.04
 
+RUN groupadd -r mongodb && useradd -r -g mongodb mongodb
+
 RUN apt-get update && apt-get upgrade
     # apt-get install libcurl3 libgssapi-krb5-2 libkrb5-dbg libldap-2.4-2 libpcap0.8 libsasl2-2 snmp openssl
 
@@ -19,6 +21,8 @@ ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en  
 ENV LC_ALL en_US.UTF-8
 
+RUN mkdir -p /data/db && chown -R mongodb:mongodb /data/db
+
 COPY . /home/iniot_js
 WORKDIR /home/iniot_js
 
@@ -26,3 +30,4 @@ COPY start.sh /usr/bin
 RUN chmod +x /usr/bin/start.sh
 
 ENTRYPOINT ["/usr/bin/start.sh"]
+# ENTRYPOINT bash
