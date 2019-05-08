@@ -61,5 +61,5 @@ app.post('/device-api/api/v1/message', (req, res) => {
 });
 
 app.listen(PORT, function () {
-    log(`\nListening on port ${PORT}...`);
+    log(`Listening on port ${PORT}...`);
 });

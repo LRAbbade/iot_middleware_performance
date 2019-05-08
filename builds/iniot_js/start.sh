@@ -1,5 +1,8 @@
 #!/bin/bash
-mongod > /home/iniot_js/mongo.log &
+mkdir -p /data/db && chown -R mongodb:mongodb /data/db
+mongod --repair && mongod > /home/iniot_js/mongo.log &
+echo "waiting for mongod to setup properly"
+sleep 120s && echo "starting iniot.js" && \
 npm start
 
 #Define cleanup procedure

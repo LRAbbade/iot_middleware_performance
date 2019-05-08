@@ -21,8 +21,6 @@ ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en  
 ENV LC_ALL en_US.UTF-8
 
-RUN mkdir -p /data/db && chown -R mongodb:mongodb /data/db
-
 COPY . /home/iniot_js
 WORKDIR /home/iniot_js
 
