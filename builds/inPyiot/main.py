@@ -6,7 +6,7 @@ from datetime import datetime
 from pprint import pprint
 import jwt
 
-PORT = 10666
+PORT = 8070
 
 client = MongoClient()
 db = client.iot

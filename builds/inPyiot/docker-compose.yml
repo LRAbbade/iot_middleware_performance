@@ -8,4 +8,4 @@ services:
       - .:/home/inpyiot
     # network_mode: "host"
     ports: 
-      - 10666:10666
+      - 8070:8070

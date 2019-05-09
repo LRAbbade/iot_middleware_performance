@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 var jwt = require('jsonwebtoken');
 var mongojs = require('mongojs')
 
-const PORT = 10666;
+const PORT = 8070;
 
 var db = mongojs('iot', ['devices'])
 

@@ -1,0 +1,11 @@
+version: "3.1"
+
+services:
+  iniot:
+    image: iniot
+    volumes:
+      - ../volumes/iniot/data:/data
+      - .:/home/iniot
+    # network_mode: "host"
+    ports: 
+      - 8070:8070
