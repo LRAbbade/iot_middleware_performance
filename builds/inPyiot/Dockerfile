@@ -1,5 +1,7 @@
 FROM ubuntu:16.04
 
+RUN groupadd -r mongodb && useradd -r -g mongodb mongodb
+
 RUN apt-get update && apt-get upgrade
     # apt-get install libcurl3 libgssapi-krb5-2 libkrb5-dbg libldap-2.4-2 libpcap0.8 libsasl2-2 snmp openssl
 

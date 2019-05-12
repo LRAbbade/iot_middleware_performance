@@ -19,7 +19,7 @@ def index():
     return 'Welcome to InPyiot'
 
 
-@app.route('/device-api/api/v1/message', methods=['POST'])
+@app.route('/api/v1/message', methods=['POST'])
 def insert():
     payload = request.get_json()
     auth = request.headers['Authorization']

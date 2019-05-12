@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
     });
 });
 
-app.post('/device-api/api/v1/message', (req, res) => {
+app.post('/api/v1/message', (req, res) => {
     const payload = req.body;
     const headers = req.headers;
 
