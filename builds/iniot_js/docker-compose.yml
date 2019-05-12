@@ -3,6 +3,7 @@ version: "3.1"
 services:
   iniotjs:
     image: iniotjs
+    restart: always
     volumes:
       - ../volumes/iniot_js/data:/data
       - .:/home/iniot_js

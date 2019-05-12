@@ -3,6 +3,7 @@ version: "3.1"
 services:
   iniot:
     image: iniot
+    restart: always
     volumes:
       - ../volumes/iniot/data:/data
       - .:/home/iniot

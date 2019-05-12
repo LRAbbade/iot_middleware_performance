@@ -3,6 +3,7 @@ version: "3.1"
 services:
   inpyiot:
     image: inpyiot
+    restart: always
     volumes:
       - ../volumes/inpyiot/data:/data
       - .:/home/inpyiot
