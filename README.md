@@ -17,3 +17,5 @@ sudo mongod --dbpath /home/ubuntu/iot_middleware_performance/builds/volumes/<cha
 Where `<change_me>` should be one of: "iniot", "iniot_js" or "inpyiot", depending on which application you want to check.
 
 Also check if the path to the project is right, in this case, its set to `/home/ubuntu`, change it to your user.
+
+Remember to [create a user](https://docs.mongodb.com/manual/reference/method/db.createUser/) to be able to access the database.

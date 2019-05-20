@@ -23,6 +23,8 @@ ENV LC_ALL en_US.UTF-8
 COPY . /home/iniot_js
 WORKDIR /home/iniot_js
 
+RUN npm install
+
 COPY start.sh /usr/bin
 RUN chmod +x /usr/bin/start.sh
 
